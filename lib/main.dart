@@ -1,8 +1,8 @@
+import 'package:Meu_Pet_Club/homeClient/page/homeClient.dart';
+import 'package:Meu_Pet_Club/onboarding/page/conclusaoCadastro.dart';
+import 'package:Meu_Pet_Club/onboarding/page/onboarding.page.dart';
+import 'package:Meu_Pet_Club/routes/routes.dart';
 import 'package:flutter/material.dart';
-import 'package:login_cadastro_app/homeClient/page/homeClient.dart';
-import 'package:login_cadastro_app/onboarding/page/conclusaoCadastro.dart';
-import 'package:login_cadastro_app/onboarding/page/onboarding.page.dart';
-import 'package:login_cadastro_app/routes/routes.dart';
 
 import 'login/page/login.page.dart';
 
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Meu Pet Club',
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.login,
     routes: {

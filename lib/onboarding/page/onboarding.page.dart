@@ -1,10 +1,9 @@
+import 'package:Meu_Pet_Club/repositories/onboarding/OnboardingRepository.dart';
+import 'package:Meu_Pet_Club/rest/onboarding/onboarding_rest.dart';
+import 'package:Meu_Pet_Club/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:brasil_fields/brasil_fields.dart';
 import 'package:flutter/services.dart';
-import 'package:login_cadastro_app/repositories/onboarding/OnboardingRepository.dart';
-import 'package:login_cadastro_app/rest/onboarding/onboarding_rest.dart';
-import 'package:login_cadastro_app/routes/routes.dart';
-
 import '../onboarding.model.dart';
 
 class Onboarding extends StatefulWidget {

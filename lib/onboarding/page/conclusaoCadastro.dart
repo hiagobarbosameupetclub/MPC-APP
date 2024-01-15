@@ -1,6 +1,6 @@
 
+import 'package:Meu_Pet_Club/routes/routes.dart';
 import 'package:flutter/material.dart';
-import 'package:login_cadastro_app/routes/routes.dart';
 
 class ConclusaoCadastro extends StatefulWidget{
   const ConclusaoCadastro ({Key? key}) : super(key: key);

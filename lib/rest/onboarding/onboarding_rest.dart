@@ -1,8 +1,8 @@
 import 'dart:convert';
 
+import 'package:Meu_Pet_Club/onboarding/onboarding.model.dart';
+import 'package:Meu_Pet_Club/rest/api.dart';
 import 'package:http/http.dart' as http;
-import 'package:login_cadastro_app/onboarding/onboarding.model.dart';
-import 'package:login_cadastro_app/rest/api.dart';
 
 class OnboardingRest {
   Future<Cadastro> inserir(Cadastro cadastro) async {

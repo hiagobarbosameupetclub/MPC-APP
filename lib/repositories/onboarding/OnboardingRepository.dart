@@ -1,5 +1,6 @@
-import 'package:login_cadastro_app/onboarding/onboarding.model.dart';
-import 'package:login_cadastro_app/rest/onboarding/onboarding_rest.dart';
+
+import 'package:Meu_Pet_Club/onboarding/onboarding.model.dart';
+import 'package:Meu_Pet_Club/rest/onboarding/onboarding_rest.dart';
 
 class OnboardingRepository {
   final OnboardingRest api = OnboardingRest();

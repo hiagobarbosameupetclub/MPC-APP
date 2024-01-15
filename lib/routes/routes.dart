@@ -1,8 +1,6 @@
-
-
-import 'package:login_cadastro_app/homeClient/page/homeClient.dart';
-import 'package:login_cadastro_app/onboarding/page/conclusaoCadastro.dart';
-import 'package:login_cadastro_app/onboarding/page/onboarding.page.dart';
+import 'package:Meu_Pet_Club/homeClient/page/homeClient.dart';
+import 'package:Meu_Pet_Club/onboarding/page/conclusaoCadastro.dart';
+import 'package:Meu_Pet_Club/onboarding/page/onboarding.page.dart';
 
 import '../login/page/login.page.dart';
 

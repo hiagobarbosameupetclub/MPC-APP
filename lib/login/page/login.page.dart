@@ -1,8 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:jwt_decode/jwt_decode.dart';
-import 'package:login_cadastro_app/repositories/login/LoginRepository.dart';
-import 'package:login_cadastro_app/rest/home/home_rest.dart';
+
 
 import '../../routes/routes.dart';
 
